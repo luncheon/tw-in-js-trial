@@ -1,0 +1,25 @@
+{
+  "name": "tw-in-js-trial",
+  "version": "0.0.0",
+  "description": "",
+  "license": "WTFPL",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --extensions .ts,.tsx --out-dir dist/ src/ && xwind",
+    "check": "tsc -p ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.3",
+    "babel-plugin-macros": "^3.0.1",
+    "babel-plugin-optimize-clsx": "^2.6.1",
+    "tailwindcss-classnames": "^2.0.7",
+    "twin.macro": "^2.3.0",
+    "typescript": "^4.2.3",
+    "xwind": "^0.8.0"
+  }
+}
